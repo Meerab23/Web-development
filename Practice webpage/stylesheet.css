@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(10, 10, 65);
+    text-align: center;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#brandname
+{
+padding-left: 10px;
+}
+#loginlink
+{
+    background-color: rgb(10, 10, 65);
+    color: white;
+}
+#welcome
+{
+    color:rgb(28, 122, 165);
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav a
+{
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+}
+h1 {
+    margin-top: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h3
+{
+    padding: 10px;
+}
+button{
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#bluebtn
+{
+    background-color: rgb(28, 122, 165);
+    color: white;
+}
+#whitebtn
+{
+    background-color: rgb(10, 10, 65);
+    color: rgb(28, 122, 165);
+    border: 1px solid rgb(28, 122, 165);
+    
+}
+#boxes
+{
+   display: flex;
+   justify-content: center;
+   margin: 50px;
+}
+.firstbox
+{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.secondbox
+{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.thirdbox
+{
+    background-color:rgb(28, 122, 165) ;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
