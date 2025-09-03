@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        header
+        {
+            color: black;
+            background-color:rgb(195, 193, 193);
+        }
+        
+        table{
+            border:1px solid black;      
+        }
+        th,td{
+            border:1px solid black;
+            text-align: center;
+        }
+        h2
+        {
+            color: rgb(36, 27, 27);
+            background-color:rgb(195, 193, 193);
+        }
+        caption
+        {
+            font-size: medium;
+            color: black;
+            font-weight: 200;
+        }
+        footer
+        {
+            color: aliceblue;
+            background-color: rgb(40, 40, 40);
+            text-align: center;
+            padding-top: 3%;
+            padding-bottom: 3%;
+        }
+        .anchor
+        {
+             color: white;
+             text-decoration: none;
+        }
+        .navig
+        {
+            color: black;
+        }
+        img{
+            border-radius: 50%;
+        }
+        #photo
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meerab Tahir</h1>
+    </header>
+    <div id="photo">    
+      <nav>
+        <ul>
+            <li><a class="navig" href="#about">About</a></li>
+            <li><a class="navig" href="#education">Education</a></li>
+            <li><a class="navig" href="#contact">Contact</a></li>
+            <li><a class="navig" href="#hobbiesandgoals">Hobbies and Goals</a></li>
+        </ul>
+      </nav>
+      <img src="./cvpic.png" alt="mypic" height="120" width="120">
+   </div>
+<main>
+    <section id="about">
+       <h2>About Me</h2>
+       <hr>
+       <p>Motivated <mark>BS Computer Science</mark> student with a strong foundation in programming, data structures, and 
+software development. Passionate about applying technical skills to real-world projects and eager to 
+contribute to a tech team through an internship opportunity. Skilled in <b>C++</b> and <b>Python</b> with a keen interest in 
+Al and problem-solving. Seeking to gain hands-on experience and grow within a collaborative and innovative 
+environment.</p>
+        
+    </section>
+    <section id="education">
+        <h2>Education and skills</h2>
+        <hr>
+
+        <table>
+            <caption>Educational Backgroung</caption>
+            <thead>
+                <tr>
+                    <th>Institute</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>University of Central Punjab</td>
+                    <td>2023-Present</td>
+                </tr>
+                <tr>
+                    <td>Kips College</td>
+                    <td>2021-2022</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+    <section id="hobbiesandgoals">
+        <h2>Hobbies</h2>
+        <hr>
+        <ul>
+            <li>Learning new technologies and problem solving</li>
+            <li>Exploring AI advancements</li>
+            <li>Graphic design and creative content creation</li>
+        </ul>
+        <h2>Goals</h2>
+        <hr>
+        <ol>
+            <li>Strengthen expertise in web development and AI</li>
+            <li>Build a strong portfolio showcasing diverse projects</li>
+            <li>Achieve a successful career in AI-based solutions</li>
+        </ol>
+        <details>
+            <summary>Click to see hidden fact about me</summary>
+            I love exploring new technologies and watch advancements in field of robotics in my free time!
+        </details>
+    </section>
+    <section id="contact">
+        <h2>Contact Here</h2>
+        <hr>
+        <form id="contactform">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required minlength="3" placeholder="Enter your name here">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required placeholder="Enter your email here">
+            <br><br>
+            <h4>Gender:</h4>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <h4>Skills:</h4>
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label>
+            <br>
+            <input type="checkbox" id="python" name="skills" value="Python">
+            <label for="python">Python</label>
+            <br>
+            <input type="checkbox" id="CSS" name="skills" value="CSS">
+            <label for="CSS">CSS</label>
+            <br>
+            <input type="checkbox" id="javascript" name="skills" value="Javascript">
+            <label for="javascript">Javascript</label>
+
+            <h4>Select course:</h4>
+            <select id="chose" name="course"> 
+                <option value="web">Web development</option>
+                <option value="python">Python</option>
+                <option value="graphic">Graphic design</option>
+                <option value="ai">Artifical intelligent</option>
+            </select>
+
+            <br><br>
+            <label for="Message">Message:</label><br>
+            <textarea id="message" name="Message" rows="10" cols="40" placeholder="Enter your message here"></textarea>
+            <br>
+            <br>
+            <button type="submit">Submit</button><br>
+
+        </form>
+
+    </section>
+</main>
+    <footer>
+
+        <address>
+            <b>Meerab Tahir</b>
+            <p>Email: meerab.tahir02@gmail.com</p>
+            
+            <p>University of Central Punjab</p>
+
+        </address>
+        <p>copyright &copy;2025 Meerab Tahir</p>
+        <a class="anchor" href="https://www.google.com/" target="_blank">Visit google site</a>
+        <br>
+        <a class="anchor" href="#top">Back to top</a>
+    </footer>
+
+</body>
+</html>
